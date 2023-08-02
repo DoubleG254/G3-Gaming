@@ -5,15 +5,15 @@ import { NavLink } from "react-router-dom";
 function NavBar(){
      
     return(
-        <div>
-            <header>
-                <img src={logo} alt="logo"/>
-                <h1>G3 Games</h1>
+        <div className="flex justify-between p-6 bg-violet-500">
+            <header className="flex ml-10 mt-5">
+                <img src={logo} alt="logo" className="rounded-full w-28"/>
+                <h1 className="text-4xl font-bold text-blue-300 p-4 mt-4">G3 Games</h1>
             </header>
-            <nav>
-                <NavLink exact to="/">Home</NavLink>
-                <NavLink to="/games">Games</NavLink>
-                <NavLink to="/cart">Cart</NavLink>
+            <nav className="mr-20 text-3xl mt-6 p-4 text-blue-200">
+                <NavLink exact to="/" className='hover:text-yellow-300'>Home</NavLink>
+                <NavLink to="/games" className="ml-10 hover:text-yellow-300">Games</NavLink>
+                <NavLink to="/cart"className="ml-10 hover:text-yellow-300">Cart</NavLink>
 
             </nav>
         </div>
