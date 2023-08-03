@@ -5,8 +5,8 @@ import { NavLink } from "react-router-dom";
 function NavBar(){
      
     return(
-        <div className="flex justify-between p-6 bg-violet-500">
-            <header className="flex ml-10 mt-5">
+        <div className="flex justify-between p-2 bg-violet-500">
+            <header className="flex ml-10 mt-2">
                 <img src={logo} alt="logo" className="rounded-full w-28"/>
                 <h1 className="text-4xl font-bold text-blue-300 p-4 mt-4">G3 Games</h1>
             </header>

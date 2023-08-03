@@ -9,7 +9,7 @@ function Home() {
         <h1 className="text-5xl mt-5  flex items-centre justify-center">Game Genre</h1>
       <div className="flex justify-between p-4 w-4/5 ml-20 mt-5">
       <button className="flex text-blue-200 text-2xl hover:text-4xl" >
-        Racing
+        Sports
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -26,7 +26,7 @@ function Home() {
         </svg>
       </button>
       <button className="flex text-blue-200 text-2xl hover:text-4xl">
-        FPS
+        Shooter
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -43,7 +43,7 @@ function Home() {
         </svg>
       </button>
       <button className="flex text-blue-200 text-2xl hover:text-4xl">
-        Simulation
+        Fighting
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -60,7 +60,7 @@ function Home() {
         </svg>
       </button>
       <button className="flex text-blue-200 text-2xl hover:text-4xl">
-        RPG
+        MMORPG
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -78,6 +78,40 @@ function Home() {
       </button>
       <button className="flex text-blue-200 text-2xl hover:text-4xl">
         Strategy
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-8 h-7 mt-1"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button className="flex text-blue-200 text-2xl hover:text-4xl">
+        Card Game
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          strokeWidth={1.5}
+          stroke="currentColor"
+          className="w-8 h-7 mt-1"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            d="M19.5 8.25l-7.5 7.5-7.5-7.5"
+          />
+        </svg>
+      </button>
+      <button className="flex text-blue-200 text-2xl hover:text-4xl">
+        MOBA
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
