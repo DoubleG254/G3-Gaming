@@ -28,6 +28,8 @@ More information about a game is given when the game card is clicked.The user ca
 
 7. Navigate through the page to view the games available and you can add games you are interested in to the cart and remove games from the cart
 8. The application has been deployed on netlify and here is the link `https://g3-games.netlify.app/`
+ 
+ # NB:// The use the site you need to use the CORS Unblock extension for data to be fetched from the api
 
 ## Technologies
 
