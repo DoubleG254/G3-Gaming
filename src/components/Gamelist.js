@@ -23,13 +23,14 @@ function Gamelist({ games }) {
         <input
           type="search"
           placeholder="Game"
+          value={search}
           className="border border-black rounded text-red-400"
           onChange={(e) => setSearch(e.target.value)}
         />
         <input
           type="submit"
-          value="Search"
-          className="border border-black rounded bg-blue-400 ml-2"
+          value="Clear"
+          className="border border-black rounded bg-blue-400 ml-2 p-2"
         />
       </form>
       <div className="flex flex-wrap justify-center ml-10">
