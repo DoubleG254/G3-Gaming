@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# G3 GAMES 
+This is the G3 Games app, a react application that uses components to manipulate the DOM and display various a number of games.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+The G3 Games app has several components with the App component being the top most hence used to render infomation to the DOM through the index.js file.
+The application has eight components that are compiled to deliver the final goal of dynamically manipulating the DOM.
+There is also use of an API.
+The application allows to view games in general, through various genres and even by searching for particular game.
+More information about a game is given when the game card is clicked.The user can also add a game to the cart where they can download or play it.
 
-## Available Scripts
+## Usage
 
-In the project directory, you can run:
+1. Clone the repository:
+`https://github.com/DoubleG254/G3-Gaming`
 
-### `npm start`
+2. Navigate to the project folder
+`cd G3-Gaming`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Install npm tool with the command
+`npm install`
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. Run the application using the command
+`npm start`
 
-### `npm test`
+5. When the application sends a GET request to the API endpoint to fetch the games data
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+6. Once data is fetched , it is passed to the components then the components are rendered to the DOM hence displaying the various games and various page components
 
-### `npm run build`
+7. Navigate through the page to view the games available and you can add games you are interested in to the cart and remove games from the cart
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technologies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* React
+* JavaScript
+* HTML
+* Tailwind CSS
+ 
 
-### `npm run eject`
+## Author
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Author: [Glory Gweth]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## License
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the [MIT License](LICENSE).
