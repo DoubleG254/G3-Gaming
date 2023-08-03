@@ -27,7 +27,7 @@ More information about a game is given when the game card is clicked.The user ca
 6. Once data is fetched , it is passed to the components then the components are rendered to the DOM hence displaying the various games and various page components
 
 7. Navigate through the page to view the games available and you can add games you are interested in to the cart and remove games from the cart
-
+8. The application has been deployed on netlify and here is the link `https://g3-games.netlify.app/`
 
 ## Technologies
 
